@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F28E2E"
+    android:screenOrientation="landscape"
+    tools:context=".KidsDashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/dash2" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/dash" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/dash" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/dash2" />
+
+    </LinearLayout>
+
+    <!--    <ImageButton-->
+    <!--        android:id="@+id/btn_logout"-->
+    <!--        android:layout_width="50dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_gravity="end"-->
+    <!--        android:layout_margin="25dp"-->
+    <!--        android:background="@drawable/logout"-->
+    <!--        android:contentDescription="@string/ttt"-->
+    <!--        tools:ignore="SpeakableTextPresentCheck" />-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/etrace"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="1sp"
+            android:layout_marginTop="1sp"
+            android:layout_marginRight="1sp"
+            android:layout_marginBottom="1sp"
+            android:elevation="10dp"
+
+            app:cardCornerRadius="10sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/engtracing"
+                android:contentDescription="@string/todo" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/utrace"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="1sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="1sp"
+            android:layout_marginBottom="1sp"
+            android:elevation="10dp"
+            app:cardCornerRadius="10sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/urdutrace"
+                android:contentDescription="@string/todo" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/dtrace"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="1sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="1sp"
+            android:layout_marginBottom="1sp"
+            android:elevation="10dp"
+            app:cardCornerRadius="10sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/digitrace"
+                android:contentDescription="@string/todo" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:gravity="center"-->
+<!--    tools:context=".Tracer">-->
+
+<!--<ScrollView-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content">-->
+<!--    <HorizontalScrollView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_height="wrap_content">-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/etrace"-->
+<!--            android:layout_width="210dp"-->
+<!--            android:layout_height="210dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_margin="25dp"-->
+<!--            android:layout_marginTop="10dp"-->
+
+<!--            android:background="@drawable/engtracing"-->
+<!--            android:contentDescription="@string/eet"-->
+<!--            tools:ignore="DuplicateSpeakableTextCheck" />-->
+
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/utrace"-->
+<!--            android:layout_width="210dp"-->
+<!--            android:layout_height="210dp"-->
+<!--            android:layout_gravity="center"-->
+
+<!--            android:layout_margin="25dp"-->
+<!--            android:background="@drawable/urdutrace"-->
+<!--            android:contentDescription="@string/uut" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/dtrace"-->
+<!--        android:layout_width="210dp"-->
+<!--        android:layout_height="210dp"-->
+<!--        android:layout_margin="25dp"-->
+
+<!--        android:background="@drawable/digitrace"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:contentDescription="@string/ddt" />-->
+
+
+<!--    </LinearLayout>-->
+<!--    </HorizontalScrollView>-->
+<!--</ScrollView>-->
+<!--</RelativeLayout>-->

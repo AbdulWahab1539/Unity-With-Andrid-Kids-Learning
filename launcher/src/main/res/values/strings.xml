@@ -1,0 +1,40 @@
+<resources>
+    <string name="game_view_content_description">Game view</string>
+    <string name="app_name">JuvenileZone</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="confirm_password">confirm_password</string>
+    <string name="signed">signed</string>
+    <string name="already_have_an_account_login">already_have_an_account_login</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="guardian">guardian</string>
+    <string name="kids">kids</string>
+    <string name="you_are_in_guardian_dashboard">You are in Guardian Dashboard</string>
+    <string name="todo">TODO</string>
+    <string name="sign">sign</string>
+    <string name="signi">signi</string>
+    <string name="eet">eet</string>
+    <string name="uut">uut</string>
+    <string name="ddt">TODO</string>
+    <string name="ssd">ssd</string>
+    <string name="ttt">TODO</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register_as_guardian">Register as Guardian</string>
+    <string name="register_as_kid">Register as Kid</string>
+    <string name="guardian_email">Guardian Email</string>
+    <string name="username">username</string>
+    <string name="none">None</string>
+    <string name="track_your_kids_activity_here">Track Your Kids Activity Here</string>
+    <string name="logout">logout</string>
+    <string name="remove">Remove</string>
+    <string name="remove_all">Remove All</string>
+</resources>

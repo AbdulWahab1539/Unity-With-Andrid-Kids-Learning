@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.login">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Login"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.PuzzleActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Preschooler"
+            android:exported="false" /> <!-- android:screenOrientation="landscape" -->
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.Login.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KidsDashboard"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".GuardianDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Tracer"
+            android:exported="false" />
+        <activity
+            android:name=".EnglishTracing"
+            android:exported="false" />
+        <activity
+            android:name=".UrduTracing"
+            android:exported="false" />
+        <activity
+            android:name=".DigiTracing"
+            android:exported="false" />
+        <activity
+            android:name=".unity.UnityGame"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Sounds123"
+            android:exported="false"
+            android:screenOrientation="landscape" /> <!--  -->
+        <activity
+            android:name=".ABCsounds"
+            android:exported="false"
+            android:screenOrientation="landscape" /> <!--  -->
+        <activity
+            android:name=".Urdusounds"
+            android:exported="false"
+            android:screenOrientation="landscape" /> <!--  -->
+        <activity
+            android:name=".Dashboard"
+            android:exported="false"
+            android:screenOrientation="landscape" /> <!--  -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <service android:name=".service.TrackService"
+            android:enabled="true"/>
+
+    </application>
+
+</manifest>

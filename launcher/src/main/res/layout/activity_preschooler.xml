@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCE99"
+    android:screenOrientation="landscape"
+    tools:context=".Preschooler">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/unicorn_new" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/unicorn_new" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/unicorn_new" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/unicorn_new" />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/btn_logout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_margin="25dp"
+        android:background="@drawable/logout"
+        android:contentDescription="@string/ttt"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sound"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="1sp"
+            android:layout_marginTop="1sp"
+            android:layout_marginRight="1sp"
+            android:layout_marginBottom="1sp"
+            android:elevation="10dp"
+            app:cardCornerRadius="10sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sound_bg"
+                android:contentDescription="@string/todo" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tracking"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="1sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="1sp"
+            android:layout_marginBottom="1sp"
+            android:elevation="10dp"
+            app:cardCornerRadius="10sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/tracing_bb"
+                android:contentDescription="@string/todo" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/puzzle"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginLeft="1sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="1sp"
+            android:layout_marginBottom="1sp"
+            android:elevation="10dp"
+            app:cardCornerRadius="10sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/puzzle"
+                android:contentDescription="@string/todo" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+    <!--    <FrameLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+
+    <!--      -->
+
+    <!--    </FrameLayout>-->
+
+</RelativeLayout>

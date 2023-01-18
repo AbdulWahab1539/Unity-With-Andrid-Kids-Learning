@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F28E2E"
+    tools:context=".activities.PuzzleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/dash2" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/dash" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/dash" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/dash2" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10sp"
+                android:id="@+id/btn_animal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/animalscene"
+                    android:contentDescription="@string/todo" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginHorizontal="20dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10sp"
+                android:id="@+id/btn_color">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/colorscene"
+                    android:contentDescription="@string/todo" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10sp"
+                android:id="@+id/btn_drag">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/dragscene"
+                    android:contentDescription="@string/todo" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10sp"
+                android:id="@+id/btn_fruit">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/fruitscene"
+                    android:contentDescription="@string/todo" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginHorizontal="20dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10sp"
+                android:id="@+id/btn_number">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/numberscene"
+                    android:contentDescription="@string/todo" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10sp"
+                android:id="@+id/btn_shape">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shapescene"
+                    android:contentDescription="@string/todo" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10sp"
+                android:id="@+id/btn_urdu">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/urduscene"
+                    android:contentDescription="@string/todo" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_marginHorizontal="20dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10sp"
+                android:id="@+id/btn_vegitable">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/vegitablescene"
+                    android:contentDescription="@string/todo" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10sp"
+                android:id="@+id/btn_vehicle">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/vehiclescene"
+                    android:contentDescription="@string/todo" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

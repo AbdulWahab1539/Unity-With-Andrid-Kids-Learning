@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UrduTracing">
+
+    <LinearLayout
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/leftarrow2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/white"
+            android:src="?attr/homeAsUpIndicator"
+            app:tint="#110101" />
+
+        <ImageButton
+            android:id="@+id/blackbt2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/white"
+            android:scaleType="fitXY"
+            android:src="@drawable/eraser" />
+
+        <ImageButton
+            android:id="@+id/redbt2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="#FD0000" />
+
+
+        <ImageButton
+            android:id="@+id/yellowbt2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="#F1D908" />
+
+        <ImageButton
+            android:id="@+id/bluebt2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="#0525F5"
+            android:orientation="vertical" />
+
+        <ImageButton
+            android:id="@+id/rightarrow2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/white"
+            android:rotationY="180"
+            android:src="?attr/homeAsUpIndicator"
+            app:tint="#0A0000" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/background2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar2">
+
+        <ImageView
+            android:id="@+id/imagev2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="1" />
+
+        <include
+            android:id="@+id/drawimage2"
+            layout="@layout/upaint_view" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:scrollbars="none"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/a"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:background="@drawable/a_big" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+
+                    android:id = "@+id/b"
+                    android:background="@drawable/b_big"/>
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/c"
+                    android:background="@drawable/c_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/d"
+                    android:background="@drawable/d_big"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/e"
+                    android:background="@drawable/e_big"/>
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/f"
+                    android:background="@drawable/f_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/g"
+                    android:background="@drawable/g_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/h"
+                    android:background="@drawable/h_big"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/i"
+                    android:background="@drawable/i_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/j"
+                    android:background="@drawable/j_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/k"
+                    android:background="@drawable/k_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/l"
+                    android:background="@drawable/l_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/m"
+                    android:background="@drawable/m_big"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/n"
+                    android:background="@drawable/n_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/o"
+                    android:background="@drawable/o_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/p"
+                    android:background="@drawable/p_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/q"
+                    android:background="@drawable/q_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/r"
+                    android:background="@drawable/r_big"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/s"
+                    android:background="@drawable/s_big"/>
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/t"
+                    android:background="@drawable/t_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/u"
+                    android:background="@drawable/u_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/v"
+                    android:background="@drawable/v_big"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/w"
+                    android:background="@drawable/w_big"/>
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:id = "@+id/x"
+                    android:background="@drawable/x_big"/>
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:gravity="center"
+                    android:id="@+id/y"
+                    android:background="@drawable/y_big" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="15sp"
+                    android:gravity="center"
+                    android:id = "@+id/z"
+                    android:background="@drawable/z_big"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

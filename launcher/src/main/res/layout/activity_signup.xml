@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:background="@drawable/background_3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:scrollbars="none"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toTopOf="@id/etSEmailAddress"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="false"
+            app:lottie_loop="false"
+            app:lottie_progress="0.5"
+            app:lottie_rawRes="@raw/family" />
+
+        <EditText
+            android:id="@+id/etSEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="emailAddress"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="#757575"
+            app:layout_constraintBottom_toTopOf="@id/etSPassword" />
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autofillHints="name"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/etSPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autofillHints="password"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/etSConfPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autofillHints="password"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="#757575" />
+
+        <CheckBox
+            android:id="@+id/cb_guardian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register_as_guardian" />
+
+        <CheckBox
+            android:id="@+id/cb_kid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register_as_kid" />
+
+        <EditText
+            android:id="@+id/etGuardianEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="emailAddress"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="@string/guardian_email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:visibility="gone"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="#757575" />
+
+        <Button
+            android:id="@+id/sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:visibility="gone"
+            android:background="@drawable/custom_button"
+            android:text="@string/sign_in" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/sign_up" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

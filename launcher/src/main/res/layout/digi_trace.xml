@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DigiTracing">
+
+    <LinearLayout
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/leftarrow3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/white"
+            android:src="?attr/homeAsUpIndicator"
+            app:tint="#110101" />
+
+        <ImageButton
+            android:id="@+id/blackbt3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/white"
+            android:scaleType="fitXY"
+            android:src="@drawable/eraser" />
+
+        <ImageButton
+            android:id="@+id/redbt3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="#FF0101" />
+
+
+        <ImageButton
+            android:id="@+id/yellowbt3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="#F1D908" />
+
+        <ImageButton
+            android:id="@+id/bluebt3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="#0525F5"
+            android:orientation="vertical" />
+
+        <ImageButton
+            android:id="@+id/rightarrow3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/white"
+            android:rotationY="180"
+            android:src="?attr/homeAsUpIndicator"
+            app:tint="#0A0000" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/background3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar3">
+
+        <ImageView
+            android:id="@+id/imageButton3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="1"
+            android:contentDescription="TODO01" />
+
+        <include
+            android:id="@+id/drawimage3"
+            layout="@layout/dpaint_view" />
+
+    </RelativeLayout>
+</RelativeLayout>
